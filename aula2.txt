@@ -71,4 +71,6 @@ Ideal para layouts e tipografia que precisam ser consistentes independentemente 
 
 Quando evitar:
 
-Quando você quer um tamanho que seja relativo
+Quando você quer um tamanho que seja relativo apenas ao elemento pai especifico e não à raiz.
+
+Exemplo de uso:
