@@ -5,13 +5,10 @@ Tamanho fixo,
 Usado quando você quer um valor exato,que não muda com o tamanho da tela.
 Exemplo: width: 200px; (largura de 200 pixels).
 
-
-
 2. em
 Relativo ao tamanho da fonte do elemento pai.
 se o pai tem font-size: 20px;, 1em será 20px.
 Exemplo: fonte-size 2em; (2 vezes o tamanho da fonte do pai).
-
 
 :root = html
 
@@ -20,15 +17,10 @@ Relativo ao tamanho da fonte raiz (geralmente o html).
 se o html tem font-size: 16px; 1 rem será 16px.
 Exemplo: padding: 1.5rem; (24px se o html tiver 16px).
 
-
-
 4. % (porcentagem)
 Relativo ao tamanho do elementos pai.
 usado para fazer elementos se ajustarem ao tamanho do seu contêiner.
 Exemplo: width: 50%; (metade da largura do contêiner).
-
-
-
 
 5. vw (viewport width)
 Relativo à largura da janela do navegador.
@@ -37,7 +29,6 @@ Exemplo: width: 50vw; (50% da largura da tela visível).
 6. vh (viewport height)
 Relativo à altura da janela do navegador.
 Exemplo: height: 100vh; (altura total da janela).
-
 
 Resumo Geral
 
