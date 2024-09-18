@@ -44,3 +44,25 @@ header{
     font-size: 1.2rem; /*Tamanho da fonte aumentado para maior legibilidade*/
     box-sizing: border-box;/*Inclui padding e borda no cálculo da largura*/
 }
+
+/*layout das caixas*/
+.box-1, .box-2, .box-3, .box-4, .box-5, .box-6 {
+    width: calc(50% - 2rem); /*Largura das caixas ajustada para caber duas por linha com espaçamento*/
+    float: left; /*Trabalha com a distribuição dos elemento ...*/
+}
+
+/*Limpeza do float*/
+.section::after {
+    content: "";/* Adiciona um elemento invisivel após o conteúdo da seção*/
+    display: flex;/*Faz com que o elemento invisivel se comporte como um bloco, forçando o contêiner a incluir elementos flutuantes*/
+    clear: both;/*Garante que o contêiner "limpe" os elementos flutuantes, evitando problemas de layout*/
+}
+
+/*Responsividade*/
+
+/*Ajuste para telas grandes (largura acima de 1200px)*/
+@media (min-width: 1200px) {
+    .box {
+        width: calc(33.333% - 2rem);/*Largura de 33.333% para três caixas por linha*/
+    }
+}
