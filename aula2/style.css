@@ -66,3 +66,10 @@ header{
         width: calc(33.333% - 2rem);/*Largura de 33.333% para três caixas por linha*/
     }
 }
+
+/*Ajuste para telas médias (largura até 1200px)*/
+@media (max-width: 1200px) {
+    .box {
+        width: calc(50% - 2rem); /*Largura de 50% para duas caixas por linha*/
+    }
+}
