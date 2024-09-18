@@ -187,3 +187,4 @@ css
     width: 50% /* 50% da largura do elemento pai (250px) */
     background-color:pink;
 }
+
