@@ -89,7 +89,7 @@ header{
 }
 
 /*Ajuste para telas médias (largura até 1200px)*/
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
     .box {
         width: calc(50% - 2rem); /*Largura de 50% para duas caixas por linha*/
     }
