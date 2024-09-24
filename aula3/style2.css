@@ -1,0 +1,43 @@
+header{
+    padding: 50px;
+    background-color: darkblue;
+}
+.section-1{
+    padding: 100px;
+    background-color: green;
+}
+.section-2{
+    padding:  100px;
+    background-color: chartreuse;
+}
+footer{
+    padding: 50px;
+    background-color: red;
+}
+/* min-width = trabalha com crecimento quando coloca 480px vai cair desse numero para cima*/
+/*max-width = trabalha com o tamanho massimo da tela*/
+@media (max-width:480px){
+    header {
+        background-color: red;
+    }
+    .section-1{
+        background-color: yellow;
+    }
+    .section-2{
+        background-color: blue;
+    }
+    footer{
+        background-color: aqua;
+    }
+}
+
+    @media (min-width: 600px) and (max-width: 1024px) {
+        .section-1{
+            color: red;
+            background-color: pink;
+        }
+        .section-2{
+            color: blue;
+            background-color: sienna;
+        }
+    }

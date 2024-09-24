@@ -1,0 +1,4 @@
+Resumo e Diferenças
+
+min-width = Largura minima o elemento não pode ser menor que esse valor.
+max-width = Largura máxima. o elemento não pode ser maior que esse valor.
