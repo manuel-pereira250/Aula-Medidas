@@ -13,7 +13,7 @@ html{
 
 header{
     padding: min(5vh, 4rem);/*Ajustando o padding: para ser mais flexível*/
-    background-color: #1c31a5;
+    background-color: #000524;
     width: 100%;/*Colocamos a largura para 100% do espaço disponível*/
 
     display: flex;
@@ -23,5 +23,42 @@ header{
 
     /*Aqui começamos o posicionamento do header*/
     position: sticky;
+    /*Posicionamento do header usando o stick, sendo um posicionamento fixo, porém distinto do fixed*/
+
     top: 0;
+    /*Rspaçamento superior zerado, fazendo com que o header fique grudado ao top*/
+
+    left: 0;
+    /*Espaçamento a esquerda zerado, fazendo com que o header fique grudado à esquerda*/
+
+    z-index: 999;
+    /*eixo de profundidade (Eixo Cartesiano)*/
+
+    box-shadow: 0 0.21rem 0.5rem white;
+    /*Primeiro valor sombra na Direita (0) segundo valor sombra bottom (0.21rem) terceiro valor gradiant da sombra (0.5rem)*/
+
 }
+header i{
+    color: white;
+    font-size: 6em;
+}
+
+header button{
+    width: 13rem;
+    height: 1.5rem;
+    background-color: #020f59;
+    border-radius: 1rem;
+    padding: 1.3rem;
+    color: white;
+
+    /*parte do button do texto*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/*
+paleta de cores
+https://paletadecores.com/paleta/1c31a5/101f78/020f59/010937/000524/*/
