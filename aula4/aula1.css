@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*Garante que o preenchimento/padding seja incluído no calculo da largura, evitando que o conteúdo ultrapasse a tela*/
+}
+
+/*html e tudo que esta no meu site ele manda na pagina enteira*/
+html{
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    padding: min(5vh, 4rem);/*Ajustando o padding: para ser mais flexível*/
+    background-color: #1c31a5;
+    width: 100%;/*Colocamos a largura para 100% do espaço disponível*/
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    /*Aqui começamos o posicionamento do header*/
+    position: sticky;
+    top: 0;
+}
