@@ -90,22 +90,15 @@ footer{
     width: 100%;
     padding: min(10vh, 4rem);
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
-    gap: 0.5em;
+    gap: 15em;
 }
 .div-logo i{
     font-size: 3em;
+    color: white;
 }
-.div-list ul{
-    display: flex;
-    justify-content: end;
-   
-}
-.div-list li{
-margin-left: 5rem;
-text-decoration: none;
-}
+
 
 @media (max-width:830px){
     header i {
